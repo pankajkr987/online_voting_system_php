@@ -1,0 +1,131 @@
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.header {
+  
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.651);
+  /*font-family: Cursive;*/
+  font-family: "Sofia", sans-serif;
+}
+#headerSection{
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.651);
+  /*font-family: Cursive;*/
+  font-family: "Sofia", sans-serif;
+}
+
+#loginSection {
+  padding: 50px;
+}
+#regis{
+  padding: 40px;
+}
+
+body {
+  /*background-color: #b8e994;*/
+  padding: 0;
+  margin: 0;
+  background: orangered;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0784eb, #e40cf0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e04e0b, #94bd0d);
+}
+
+#loginbtn {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 20px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.651);
+  color: white;
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+}
